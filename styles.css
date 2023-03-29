@@ -1,0 +1,73 @@
+
+
+body{
+    margin: 0;
+    background: linear-gradient(to right, lightblue, rgb(7, 4, 209), rgb(72, 4, 112));
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    box-shadow: 0 10px 20px rgba(0,0,0,.4);
+    text-align: center;
+    padding: 1rem;
+    width: 40rem;
+    margin: .4rem;
+}
+
+.btn{
+    background-color: green;
+    color: aliceblue;
+    padding: 1rem 2.5rem;
+    font-size: 16px;
+    margin-bottom: 3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.anime-img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid rgba(209, 226, 56, 0.534);
+}
+
+.anime-name{
+    margin: 2rem;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.anime-container{
+    display: none;
+}
